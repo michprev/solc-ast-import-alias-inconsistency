@@ -1,0 +1,190 @@
+{
+    "absolutePath": "contracts/A.sol",
+    "exportedSymbols": {
+        "A": [
+            15
+        ],
+        "Base": [
+            2
+        ]
+    },
+    "id": 16,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+        {
+            "id": 1,
+            "literals": [
+                "solidity",
+                "^",
+                "0.8",
+                ".0"
+            ],
+            "nodeType": "PragmaDirective",
+            "src": "32:23:0"
+        },
+        {
+            "absolutePath": "contracts/Base.sol",
+            "file": "./Base.sol",
+            "id": 2,
+            "nameLocation": "80:4:0",
+            "nodeType": "ImportDirective",
+            "scope": 16,
+            "sourceUnit": 38,
+            "src": "57:28:0",
+            "symbolAliases": [],
+            "unitAlias": "Base"
+        },
+        {
+            "abstract": false,
+            "baseContracts": [
+                {
+                    "baseName": {
+                        "id": 3,
+                        "name": "Base.Base",
+                        "nameLocations": [
+                            "101:4:0",
+                            "106:4:0"
+                        ],
+                        "nodeType": "IdentifierPath",
+                        "referencedDeclaration": 37,
+                        "src": "101:9:0"
+                    },
+                    "id": 4,
+                    "nodeType": "InheritanceSpecifier",
+                    "src": "101:9:0"
+                }
+            ],
+            "canonicalName": "A",
+            "contractDependencies": [],
+            "contractKind": "contract",
+            "fullyImplemented": true,
+            "id": 15,
+            "linearizedBaseContracts": [
+                15,
+                37
+            ],
+            "name": "A",
+            "nameLocation": "96:1:0",
+            "nodeType": "ContractDefinition",
+            "nodes": [
+                {
+                    "body": {
+                        "id": 13,
+                        "nodeType": "Block",
+                        "src": "156:42:0",
+                        "statements": [
+                            {
+                                "expression": {
+                                    "expression": {
+                                        "expression": {
+                                            "id": 9,
+                                            "name": "Base",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 2,
+                                            "src": "173:4:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_module_38",
+                                                "typeString": "module \"contracts/Base.sol\""
+                                            }
+                                        },
+                                        "id": 10,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": true,
+                                        "lValueRequested": false,
+                                        "memberLocation": "178:4:0",
+                                        "memberName": "Base",
+                                        "nodeType": "MemberAccess",
+                                        "referencedDeclaration": 37,
+                                        "src": "173:9:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_type$_t_contract$_Base_$37_$",
+                                            "typeString": "type(contract Base)"
+                                        }
+                                    },
+                                    "id": 11,
+                                    "isConstant": false,
+                                    "isLValue": false,
+                                    "isPure": true,
+                                    "lValueRequested": false,
+                                    "memberLocation": "183:8:0",
+                                    "memberName": "CONSTANT",
+                                    "nodeType": "MemberAccess",
+                                    "referencedDeclaration": 36,
+                                    "src": "173:18:0",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_uint256",
+                                        "typeString": "uint256"
+                                    }
+                                },
+                                "functionReturnParameters": 8,
+                                "id": 12,
+                                "nodeType": "Return",
+                                "src": "166:25:0"
+                            }
+                        ]
+                    },
+                    "functionSelector": "0dbe671f",
+                    "id": 14,
+                    "implemented": true,
+                    "kind": "function",
+                    "modifiers": [],
+                    "name": "a",
+                    "nameLocation": "126:1:0",
+                    "nodeType": "FunctionDefinition",
+                    "parameters": {
+                        "id": 5,
+                        "nodeType": "ParameterList",
+                        "parameters": [],
+                        "src": "127:2:0"
+                    },
+                    "returnParameters": {
+                        "id": 8,
+                        "nodeType": "ParameterList",
+                        "parameters": [
+                            {
+                                "constant": false,
+                                "id": 7,
+                                "mutability": "mutable",
+                                "name": "",
+                                "nameLocation": "-1:-1:-1",
+                                "nodeType": "VariableDeclaration",
+                                "scope": 14,
+                                "src": "150:4:0",
+                                "stateVariable": false,
+                                "storageLocation": "default",
+                                "typeDescriptions": {
+                                    "typeIdentifier": "t_uint256",
+                                    "typeString": "uint256"
+                                },
+                                "typeName": {
+                                    "id": 6,
+                                    "name": "uint",
+                                    "nodeType": "ElementaryTypeName",
+                                    "src": "150:4:0",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_uint256",
+                                        "typeString": "uint256"
+                                    }
+                                },
+                                "visibility": "internal"
+                            }
+                        ],
+                        "src": "149:6:0"
+                    },
+                    "scope": 15,
+                    "src": "117:81:0",
+                    "stateMutability": "pure",
+                    "virtual": false,
+                    "visibility": "public"
+                }
+            ],
+            "scope": 16,
+            "src": "87:113:0",
+            "usedErrors": []
+        }
+    ],
+    "src": "32:168:0"
+}

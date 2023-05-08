@@ -1,0 +1,89 @@
+{
+    "absolutePath": "contracts/Base.sol",
+    "exportedSymbols": {
+        "Base": [
+            37
+        ]
+    },
+    "id": 38,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+        {
+            "id": 33,
+            "literals": [
+                "solidity",
+                "^",
+                "0.8",
+                ".0"
+            ],
+            "nodeType": "PragmaDirective",
+            "src": "32:23:2"
+        },
+        {
+            "abstract": false,
+            "baseContracts": [],
+            "canonicalName": "Base",
+            "contractDependencies": [],
+            "contractKind": "contract",
+            "fullyImplemented": true,
+            "id": 37,
+            "linearizedBaseContracts": [
+                37
+            ],
+            "name": "Base",
+            "nameLocation": "66:4:2",
+            "nodeType": "ContractDefinition",
+            "nodes": [
+                {
+                    "constant": true,
+                    "functionSelector": "34ca75ef",
+                    "id": 36,
+                    "mutability": "constant",
+                    "name": "CONSTANT",
+                    "nameLocation": "98:8:2",
+                    "nodeType": "VariableDeclaration",
+                    "scope": 37,
+                    "src": "77:33:2",
+                    "stateVariable": true,
+                    "storageLocation": "default",
+                    "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                    },
+                    "typeName": {
+                        "id": 34,
+                        "name": "uint",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "77:4:2",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                        }
+                    },
+                    "value": {
+                        "hexValue": "31",
+                        "id": 35,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "number",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "109:1:2",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_rational_1_by_1",
+                            "typeString": "int_const 1"
+                        },
+                        "value": "1"
+                    },
+                    "visibility": "public"
+                }
+            ],
+            "scope": 38,
+            "src": "57:56:2",
+            "usedErrors": []
+        }
+    ],
+    "src": "32:81:2"
+}
